@@ -1,0 +1,52 @@
+package com.example.gamifiedto_dolist;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+import java.util.ArrayList;
+
+public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder> {
+    private ArrayList<Task> taskList;
+
+    public TaskAdapter(ArrayList<Task> taskList) {
+        this.taskList = taskList;
+    }
+
+    @NonNull
+    @Override
+    public TaskViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.task_item, parent, false);
+        return new TaskViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull TaskViewHolder holder, int position) {
+        Task task = taskList.get(position);
+        holder.taskTitle.setText(task.getTitle());
+        holder.taskCategory.setText(task.getCategory());
+        holder.taskCompleted.setChecked(task.isCompleted());
+        holder.taskCompleted.setOnCheckedChangeListener((buttonView, isChecked) -> task.setCompleted(isChecked));
+    }
+
+    @Override
+    public int getItemCount() {
+        return taskList.size();
+    }
+
+    public static class TaskViewHolder extends RecyclerView.ViewHolder {
+        TextView taskTitle;
+        TextView taskCategory;
+        CheckBox taskCompleted;
+
+        public TaskViewHolder(@NonNull View itemView) {
+            super(itemView);
+            taskTitle = itemView.findViewById(R.id.taskTitle);
+            taskCategory = itemView.findViewById(R.id.taskCategory);
+            taskCompleted = itemView.findViewById(R.id.taskCompleted);
+        }
+    }
+}

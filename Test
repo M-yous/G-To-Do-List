@@ -1,0 +1,29 @@
+package com.example.gamifiedto_dolist;
+
+public class Task {
+    private String title;
+    private String category;
+    private boolean isCompleted;
+
+    public Task(String title, String category) {
+        this.title = title;
+        this.category = category;
+        this.isCompleted = false;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public boolean isCompleted() {
+        return isCompleted;
+    }
+
+    public void setCompleted(boolean completed) {
+        isCompleted = completed;
+    }
+}

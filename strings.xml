@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Gamified To-Do List</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_list">List of tasks</string>
+    <string name="enter_task">Enter task</string>
+    <string name="gamified_todo_list">Gamified To-Do List</string>
+    <string name="select_task_category">Select task category</string>
+    <string name="user_hp">User HP</string>
+    <string name="ai_hp">AI HP</string>
+    <string name="user_health_bar">User health bar</string>
+    <string name="ai_health_bar">AI health bar</string>
+    <string name="task_input_desc">Task input field</string>
+    <string name="add_task_button">Add Task</string>
+    <string name="select">Select</string>
+    <string name="battle">Battle</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="category_spinner_description">Select a category</string>
+    <string name="task_spinner_description">Select a task</string>
+    <string name="add_task_button_description">Add task button</string>
+    <string name="battle_button_description">Battle button</string>
+    <string name="continue_as_guest_button_description">Continue as Guest button</string>
+    <string name="register_button_description">Register button</string>
+    <string name="login_button_description">Login button</string>
+    <string name="register_screen_title">Register</string>
+    <string name="login_screen_title">Login</string>
+    <string name="recycler_view_description">List of tasks</string>
+    <string name="example_image_description">Example image</string>
+    <string name="example_edit_text_hint">Enter text here</string>
+    <string name="example_button_text">Click me</string>
+    <string name="categories_heading">Categories</string>
+    <string name="tasks_heading">Tasks</string>
+
+    <string-array name="task_categories">
+        <item>Physical Health</item>
+        <item>Mental Health</item>
+        <item>Spiritual Health</item>
+        <item>Prosperity</item>
+    </string-array>
+
+    <string-array name="example_tasks">
+        <item>Go for a run</item>
+        <item>Exercise for 30 minutes</item>
+        <item>Drink 8 glasses of water</item>
+        <item>Do yoga</item>
+        <item>Take a 30-minute walk</item>
+        <item>Stretch for 10 minutes</item>
+        <item>Do a workout session</item>
+        <item>Join a fitness class</item>
+        <item>Swim for 30 minutes</item>
+        <item>Ride a bike for 1 hour</item>
+        <item>Meditate for 10 minutes</item>
+        <item>Read a book</item>
+        <item>Practice yoga</item>
+        <item>Journal for 15 minutes</item>
+        <item>Listen to calming music</item>
+        <item>Take a relaxation bath</item>
+        <item>Do a digital detox for 1 hour</item>
+        <item>Practice deep breathing exercises</item>
+        <item>Talk to a therapist</item>
+        <item>Do a creative activity (e.g., painting, drawing)</item>
+        <item>Prayer</item>
+        <item>Reflection</item>
+        <item>Community Service</item>
+        <item>Read a spiritual book</item>
+        <item>Attend a spiritual gathering</item>
+        <item>Practice mindfulness</item>
+        <item>Spend time in nature</item>
+        <item>Volunteer at a local organization</item>
+        <item>Join a meditation group</item>
+        <item>Practice gratitude journaling</item>
+        <item>Complete project report</item>
+        <item>Attend team meeting</item>
+        <item>Prepare for the client presentation</item>
+        <item>Finish coding the new feature</item>
+        <item>Review pull requests</item>
+        <item>Write a blog post</item>
+        <item>Learn a new programming language</item>
+        <item>Take an online course</item>
+        <item>Prepare a budget</item>
+        <item>Invest time in a side project</item>
+    </string-array>
+</resources>

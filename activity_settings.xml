@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile" />
+
+        <Button
+            android:id="@+id/button_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_notification_preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification Preferences" />
+
+        <Button
+            android:id="@+id/button_do_not_disturb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do Not Disturb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy and Security"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_two_factor_auth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two-Factor Authentication" />
+
+        <Button
+            android:id="@+id/button_privacy_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Settings" />
+
+        <Button
+            android:id="@+id/button_session_management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Session Management" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Preferences"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language" />
+
+        <Button
+            android:id="@+id/button_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theme" />
+
+        <Button
+            android:id="@+id/button_font_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Font Size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help and Support"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_help_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help Center" />
+
+        <Button
+            android:id="@+id/button_contact_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Support" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Management"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_export_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export Data" />
+
+        <Button
+            android:id="@+id/button_clear_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Cache" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Version" />
+
+        <Button
+            android:id="@+id/button_terms_of_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms of Service" />
+
+        <Button
+            android:id="@+id/button_open_source_licenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Source Licenses" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+
+        <Button
+            android:id="@+id/button_delete_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account" />
+
+    </LinearLayout>
+</ScrollView>
